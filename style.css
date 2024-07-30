@@ -1,0 +1,1187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+/* css for header start */
+.head{
+    background-image: url('./assets/bg.jpg');
+    color: white;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    border-bottom: 8px solid #312f2f;
+}
+.box{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+        background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    top: 0;
+}
+.nav{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 80vw;
+}
+
+.logo img{
+    position: relative;
+    z-index: 10;
+    color: red;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+.signin{
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 5px;
+    background-color: red;
+    height: 30px;
+    position: relative;
+    z-index: 10;
+}
+.signin:hover{
+    cursor: pointer;
+    background-color: #ff5454;
+    color: black;
+}
+.svg2{
+    position: relative;
+    left: 50px;
+    top: 7px;
+    z-index: 11;
+}
+.language{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    opacity: 0.7;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    outline: none;
+    padding:0px 24px;
+    
+}
+.language:hover{
+    cursor: pointer;
+}
+.body{
+    padding-top: 150px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 170px;
+}
+.heading{
+    font-size: 3rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    
+}
+.text{
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Email{
+    opacity: 0.9;
+    background-color: rgba(22, 22, 22, 0.7);
+    width: 400px;
+    color: white;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    position: relative;
+}
+.btn2{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color: red;
+    position: relative;
+    padding-right: 30px;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+::placeholder{
+    color: white;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.svg{
+    position: relative;
+    right: 40px;
+    top: 3px;
+}
+/* css for header end */
+
+
+/* media query for header start */
+@media screen and (min-width: 1920px) {
+    .nav{
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:1280px){
+    .nav{
+        max-width: 100vw;
+    }
+}
+@media screen and (max-width:960px) {
+    .logo img{
+        width: 110px;
+    }
+    .heading{
+        font-size: 2rem !important;
+    }
+    .text{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width:700px) {
+    .Email{
+        width: 280px !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .language{
+        width: 0.0625rem !important;
+        padding-right: 1.75rem !important;
+        position: relative !important;
+        left: 24px;
+    }
+    .svg2{
+        position: relative !important;
+        left: 84px !important;
+    }
+    .signin{
+        width: 65px !important;
+        font-size: 14px;
+    }
+    .select{
+        flex-direction: column;
+    }
+    .Email{
+        width: 500px !important;
+    }
+}
+@media screen and (max-width:505px){
+    .Email{
+        width: 310px !important;
+    }
+    .btn2{
+        margin-left: 30px;
+        width: 160px !important;
+        border-radius: 10px !important;
+    }
+}
+@media screen and (max-width:320px){
+    .btn{
+        margin-left: -70px;
+    }
+    .Email{
+        width: 260px !important;
+    }
+}
+
+/* media query for header end */
+
+
+/* css for section start*/
+.TV{
+    width: 100%;
+    height: 80vh;
+    border-bottom: 8px solid #312f2f;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    bottom: 100px;
+}
+.left{
+    color: white;
+    margin-top: 150px;
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+.enjoy{
+    font-size: 2.6rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    /* text-align: center; */
+}
+.enjoy1{
+    font-size: 1.4rem;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.video1{
+    position: relative;
+    width: 436px;
+    bottom: 161px;
+    left: 80px;
+}
+.TVimg{
+position: relative;
+top: 200px;
+width: 600px;
+z-index: 10;
+}
+
+/* css for section end*/
+
+
+/* media query for section start */
+@media screen and (max-width: 2548px) {
+    .container1{
+        height: 100vh;
+        position: relative;
+        left: 200px;
+    }
+    .TV{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 2548px){
+    .TVimg{
+        left: 100px;
+        top: 40px;
+    }
+.video1{
+    left: -421px;
+    top: -68px;
+}
+.container1{
+    position: relative;
+        left: 250px;
+}
+}
+@media screen and (max-width: 1980px){
+    .container1{
+        position: relative;
+        height: 80vh;
+        left: 60px;
+    }
+    .TV{
+        height: 80vh;
+    }
+    .TVimg{
+        width: 500px;
+        z-index: 10;
+        }
+        .video1{
+            width: 353px;
+            top: -100px;
+            left: 70px;
+        }
+}
+@media screen and (max-width: 960px){
+    .container1{
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .TV{
+        height: 110vh;
+    }
+    .right{
+        position: relative;
+        bottom: 190px;
+        width: 460px;
+    }
+    .left{
+        position: relative;
+        text-align: center;
+    }
+    .enjoy{
+        font-size: 2rem;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .enjoy1{
+        font-size: 1rem;
+        position: relative;
+        right: 30px;
+    }
+}
+@media screen and (max-width: 535px){
+    .TVimg{
+        width: 300px;
+        left: 80px;
+    }
+    .video1{
+        width: 220px;
+        top: 20px;
+        left: 120px;
+    }
+    .right{
+        width: 30vw;
+        position: relative;
+        right: 165px;
+    }
+    .left{
+        width: 68vw;
+        left: 20px;
+    }
+    .enjoy{
+        position: relative;
+        right: 20px;
+    }
+    .container1{
+        position: relative;
+        top: 60px;
+    }
+}
+@media screen and (max-width: 330px){
+.left{
+    position: relative;
+    left: 30px;
+}
+.right{
+    position: relative;
+    right: 170px;
+}
+.TVimg{
+    width: 250px;
+}
+.video1{
+    width: 200px;
+    top: 30px;
+    left: 100px;
+}
+.img{
+    position: relative;
+    left: 15px;
+}
+}
+/* media query for section end */
+
+
+/* css for section two start*/
+.download{
+    width: 100%;
+    height: 80vh;
+    border-bottom: 8px solid #312f2f;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: row;
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    color: white;
+}
+.downloadheading{
+    font-size: 3rem;
+    font-weight: bolder;
+    position: relative;
+    bottom: 20px;
+    /* text-align: center; */
+}
+.downloadtext{
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.imgmobile{
+    height: 300px;
+        width: 550px;
+}
+.imgtext span{
+    color: blue;
+    display: block;
+}
+.rightelement{
+    display: flex;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 330px;
+    height: 110px;
+    position: relative;
+    left: 110px;
+    bottom: 50px;
+    background-color: black;
+}
+.imgtext{
+    position: relative;
+    left: 20px;
+}
+.imggif{
+    position: relative;
+    left: 20px;
+}
+.imgstranger{
+    position: relative;
+    right: 20px;
+}
+.imgtext{
+    position: relative;
+    left: -7px;
+}
+/* css for section two end */
+
+
+/* media query for section two start */
+
+@media screen and (max-width:1275px){
+    .downloadheading{
+        width: 600px;
+    }
+    .rightelement{
+        position: relative;
+        right: 50px;
+    }
+}
+@media screen and (max-width:1050px){
+    .downloadheading{
+        width: 500px;
+    }
+}
+@media screen and (max-width:960px){
+    .container2{
+        flex-direction: column;
+        height: 110vh;
+    }
+    .download{
+        height: 110vh;
+    }
+    .downloadheading{
+        font-size: 2rem;
+        width: fit-content;
+        text-align: center;
+    }
+    .downloadtext{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .rightelement{
+        position: relative;
+        bottom: 400px;
+        left: 30px;
+    }
+    .leftelement{
+        position: relative;
+        top: 100px;
+    }
+}
+@media screen and (max-width:778px){
+    .leftelement{
+        top: 145px;
+    }
+}
+@media screen and (max-width:548px){
+    .imgmobile{
+        height: 250px;
+        width: 360px;
+    }
+    .card{
+        left: 20px;
+        height: 80px;
+        width: 300px;
+    }
+    .stranger{
+        height: 50px;
+        width: 50px;
+    }
+    .rightelement{
+        top: -200px;
+        left: 0px;
+    }
+    .leftelement{
+        top: 90px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:360px){
+.imgmobile{
+    height: 200px;
+    width: 270px;
+}
+.stranger{
+    height: 40px;
+    width: 40px;
+}
+.card{
+    width: 250px;
+    left: 5px;
+}
+.imgtext{
+    font-size: 12px;
+}
+.leftelement{
+    top: 180px;
+}
+.rightelement{
+    top: -170px;
+}
+}
+
+/* media query for section two end */
+
+
+/* css for section three start */
+.watch{
+    width: 100%;
+    height: 80vh;
+    border-bottom: 8px solid #312f2f;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+    bottom: 50px;
+}
+.watchleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.watchheading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.watchtext{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.comboimg{
+    position: relative;
+    top: 150px;
+    width: 600px;
+    z-index: 10;
+}
+.video2{
+    position: relative;
+    bottom: 270px;
+    left: 130px;
+    width: 350px;
+}
+
+/* css for section three end */
+
+
+
+/* media query for section three start */
+@media screen and (min-width: 2360px){
+    .video2{
+        left: -490px;
+        top: -68px;
+    }
+    .apple{
+        position: relative;
+        bottom: 120px;
+    }
+    }
+@media screen and (max-width: 2548px) {
+    .container3{
+        height: 100vh;
+        position: relative;
+        left: 200px;
+    }
+    .watch{
+        height: 100vh;
+    }
+}
+@media screen and (min-width: 2548px){
+    .comboimg{
+        left: 100px;
+        top: 40px;
+    }
+    .video2{
+        left: -384px;
+        top: -172px;
+    }
+.container3{
+    position: relative;
+        left: 250px;
+}
+.apple{
+    top: 75px;
+}
+.watchleft{
+    position: relative;
+    top: 90px;
+}
+}
+@media screen and (max-width: 1980px){
+    .container3{
+        position: relative;
+        height: 80vh;
+        left: 60px;
+    }
+    .watch{
+        height: 80vh;
+    }
+    .comboimg{
+        width: 500px;
+        z-index: 10;
+        }
+        .video2{
+            width: 320px;
+            top: -201px;
+            left: 94px;
+        }
+}
+@media screen and (max-width: 960px){
+    .container3{
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    .watch{
+        height: 110vh;
+    }
+    .watchright{
+        position: relative;
+        bottom: 190px;
+        width: 460px;
+    }
+    .watchleft{
+        position: relative;
+        text-align: center;
+        top: 75px;
+    }
+    .watchheading{
+        font-size: 2rem;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .watchtext{
+        font-size: 1rem;
+        position: relative;
+        right: 30px;
+    }
+    .apple{
+        position: relative;
+        top: 130px;
+    }
+}
+@media screen and (max-width: 535px){
+    .comboimg{
+        width: 300px;
+        left: 80px;
+    }
+    .video2{
+        width: 177px;
+        top: -61px;
+        left: 140px;
+    }
+    .watchright{
+        width: 30vw;
+        position: relative;
+        right: 165px;
+    }
+    .watchleft{
+        width: 68vw;
+        left: 20px;
+    }
+    .watchheading{
+        position: relative;
+        right: 20px;
+    }
+    .container3{
+        position: relative;
+        top: 60px;
+    }
+}
+@media screen and (max-width: 330px){
+.watchleft{
+    position: relative;
+    left: 30px;
+}
+.watchright{
+    position: relative;
+    right: 170px;
+}
+.comboimg{
+    width: 250px;
+}
+.video2{
+    width: 152px;
+    top: -21px;
+    left: 130px;
+}
+.apple{
+    position: relative;
+    left: 15px;
+}
+}
+/* media query for section three end */
+
+
+
+/*css for section four start */
+.star{
+width: 100%;
+height: 80vh;
+border-bottom: 8px solid #312f2f;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+}
+.createright{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.createheading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.createtext{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+/*css for section four end */
+
+
+/* media query for section four start */
+@media screen and (min-width: 2548px){
+    .container4{
+        width: 52vw;
+    }
+    .createright{
+        position: relative;
+        left: 180px;
+    
+    }
+}
+@media screen and (max-width: 2548px){
+    
+    .container4{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 1995px) {
+    .starimg{
+        width: 530px;
+        left: 15px;
+    }
+}
+@media screen and (max-width: 1118px){
+   .createheading{
+width: 450px;
+   }
+   .container4{
+    right: 50px;
+   }
+}
+@media screen and (max-width: 960px){
+    .container4{
+        flex-direction: column;
+        height: 100vh;
+        width: 80vw;
+        left: -5px;
+    }
+    .star{
+        height: 100vh;
+    }
+    .createheading{
+        font-size: 2rem;
+    }
+    .createtext{
+        font-size: 1rem;
+    }
+    .createright{
+        position: relative;
+        bottom: 390px;
+        align-items: center;
+        text-align: center;
+    }
+    .createleft{
+        position: relative;
+        top: 110px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    .starimg{
+        width: 430px;
+    }
+    .createright{
+        bottom: 330px;
+    }
+    .createheading{
+        width: 345px;
+    }
+.createtext{
+    width: 280px;
+}
+    .createleft{
+        top: 200px;
+    }
+}
+@media screen and (max-width: 420px){
+    .starimg{
+        width: 340px;
+    }
+    .createleft{
+        top: 220px;
+    }
+    .createright{
+        bottom: 280px;
+    }
+}
+@media screen and (max-width: 334px){
+    .starimg{
+        width: 260px;
+    }
+    .createtext{
+       width: 235px;
+    }
+    .createright{
+        bottom: 230px;
+    }
+    .createheading{
+        width: 246px;
+    }
+}
+
+/* media query for section four end */
+
+
+
+/* Css for Section five start */
+.FAQ{
+    width: 100%;
+    height: 100%;
+    border-bottom: 8px solid #312f2f;
+}
+.container5{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.headingfaq{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.question{
+    font-size: 1.5rem;
+}
+.boxplus{
+    background-color: rgb(45, 45, 45);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 20px;
+    width: 80vw;
+}
+.boxplus:hover{
+    background-color: #3e3d3d;
+    cursor: pointer;
+}
+.plussvg{
+    position: relative;
+    right: 30px;
+}
+.ready{
+    padding-top: 40px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.selectitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+.herosvg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    background-color: red;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.svgarrow{
+    position: relative;
+    top: 3px;
+    right: 3px;
+}
+.btnstart{
+    position: relative;
+    left: 5px;
+}
+.herosvg:hover{
+    cursor: pointer;
+    background-color: #ff5454;
+    color: black;
+}
+
+
+/* Css for Section five end */
+
+
+/* media query for section five start */
+
+
+@media screen and (max-width:960px){
+    .headingfaq{
+        font-size: 2rem;
+    }
+    .question{
+        font-size: 1.2rem;
+    }
+    .ready{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:600px){
+    .selectitem{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:435px){
+    .plussvg{
+        left: 0px;
+    }
+    .question{
+        font-size: 1rem;
+    }
+}
+
+/* media query for section five start */
+
+
+/* Css for Footer start */
+
+.pageend{
+    width: 90%;
+    height: 60vh;
+}
+.container6{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #bbbaba;
+    margin: auto;
+}
+.detail{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 30px;
+}
+ul li{
+    list-style: none;
+    text-decoration: underline;
+}
+ul li:hover{
+    cursor: pointer;
+}
+.call span{
+    text-decoration: underline;
+}
+.call span:hover{
+    cursor: pointer;
+}
+.call{
+   padding-top: 70px;
+}
+.one{
+    padding-bottom: 20px;
+}
+.SFoot{
+    position: relative;
+    left: 150px;
+}
+.TFoot{
+    position: relative;
+    left: 300px;
+}
+.FFoot{
+    position: relative;
+    left: 450px;
+}
+.india{
+    position: relative;
+    top: 30px;
+    padding-bottom: 70px;
+}
+.svgfoot{
+    position: relative;
+    top: 30px;
+    z-index: 11;
+    left: 6px;
+    width: 30px;
+}
+ .langvalue{
+        width: 120px;
+    height: 35px;
+    background-color: black;
+    opacity: 0.7;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    z-index: 10;
+    outline: none;
+    padding: 0px 24px;
+}
+/* Css for Footer end */
+
+/* media query for footer start */
+
+@media screen and (min-width:2090px) {
+    .SFoot{
+        position: relative;
+        left: 400px;
+    }
+    .TFoot{
+        position: relative;
+        left: 800px;
+    }
+    .FFoot{
+        position: relative;
+        left: 1200px;
+    }
+}
+
+@media screen and (max-width:1270px){
+    .container6{
+        position: relative;
+        right: 150px;
+        
+    }
+}
+
+@media screen and (max-width:1050px){
+    .SFoot{
+        left: 90px;
+    }
+    .TFoot{
+        left: 170px;
+    }
+    .FFoot{
+        left: 250px;
+    }
+    .container6{
+        left: -80px;
+    }
+}
+
+@media screen and (max-width:690px){
+    .detail{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .TFoot{
+        left: 0px;
+    }
+    .FFoot{
+        left: 94px;
+    }
+    .container6{
+        top: 115px;
+        left: -32px;
+    }
+}
+@media screen and (max-width:380px){
+    .container6{
+        top: 160px;
+    }
+    .SFoot{
+left: 20px;
+    }
+    .FFoot{
+left: 20px;
+    }
+}
+
+
+/* media query for footer end */
